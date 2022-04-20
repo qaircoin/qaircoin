@@ -1,0 +1,32 @@
+# QAirCoin stellar.toml
+VERSION="2.2.0"
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+
+ACCOUNTS=[
+"GCU22F54IB2PBVTDOMVO36YS4J5R2TEUYV4PG24R3RBVUVTWRN3Q6JET"]
+
+[DOCUMENTATION]
+ORG_NAME="Aircoin"
+ORG_URL="https://qaircoin.io"
+ORG_LOGO="https://qaircoin.io/air128c.png"
+ORG_DESCRIPTION="QAirCoin allows tourists across multiple countries to exercise their share of influence within their favourite place/club/natural reserve."
+ORG_TWITTER="https://twitter.com/qaircoin"
+ORG_GITHUB="https://github.com/qaircoin"
+ORG_OFFICIAL_EMAIL="info@qaircoin.com"
+
+[[CURRENCIES]]
+code="QAIRCOIN"
+name="QAirCoin"
+issuer="GCU22F54IB2PBVTDOMVO36YS4J5R2TEUYV4PG24R3RBVUVTWRN3Q6JET"
+desc="QAirCoin allows tourists across multiple countries to exercise their share of influence within their favourite place/club/natural reserve."
+image="https://qaircoin.io/wp-content/uploads/2022/04/air128c.png"
+status="live"
+display_decimals=7
+fixed_number=4170000000
+
+
+[[PRINCIPALS]]
+email="info@qaircoin.com"
+twitter="@qaircoin"
+telegram="@qaircoin"
